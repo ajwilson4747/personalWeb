@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+
+body,html{
+  height:100%;
+  margin:0;
+  background-color: #b2755e;
+  font-family: 'Vujahday Script', cursive;
+  scroll-behavior: smooth;
+}
+
+.container{
+  color: white;
+}
+
+.container h1{
+  padding: 100px;
+  text-align: center;
+    color: white;
+    font-size: 45px;
+}
+
+.container p{
+  padding: 100px;
+  text-align: center;
+    color: white;
+    font-size: 26px;
+}
