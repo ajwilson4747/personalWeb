@@ -641,7 +641,7 @@ label #cancel{
 #check:checked ~ label #cancel{
   right:60px;
 }*/
-  #sideBar{ 
+  header{ 
     display: none; 
     opacity: 0; 
   }
