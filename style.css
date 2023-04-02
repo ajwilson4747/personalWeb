@@ -611,6 +611,7 @@ label #bars_btn, label #cancel{
 }
 
 label #bars_btn{
+  display:visible;
   right:40px;
   top:15px;
   font-size: 20px;
@@ -620,6 +621,7 @@ label #bars_btn{
 }
 
 label #cancel{
+  display:visible;
   z-index: 1111;
   right: -265px;
   top:25px;
