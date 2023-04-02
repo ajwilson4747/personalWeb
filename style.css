@@ -597,9 +597,9 @@ h2{
   font-size: 24px;
 }
 
-@media(max-width: 500px){ 
+@media(max-width: 600px){ 
   
- #check{
+ /*#check{
   display:none;
 }
 label #bars_btn, label #cancel{
@@ -640,5 +640,8 @@ label #cancel{
 
 #check:checked ~ label #cancel{
   right:60px;
-}
+}*/
+  #sideBar{ 
+    display: none; 
+  }
 }
