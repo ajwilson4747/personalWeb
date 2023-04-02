@@ -641,7 +641,8 @@ label #cancel{
 #check:checked ~ label #cancel{
   right:60px;
 }*/
-  #vertical_sB{ 
+  #sideBar{ 
     display: none; 
+    opacity: 0; 
   }
 }
