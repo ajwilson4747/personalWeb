@@ -597,6 +597,13 @@ h2{
   font-size: 24px;
 }
 
+#check{
+  display:none;
+}
+label #bars_btn, label #cancel{
+  display: none;
+}
+
 @media(max-width: 600px){ 
   
  #check{
