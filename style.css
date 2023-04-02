@@ -597,19 +597,13 @@ h2{
   font-size: 24px;
 }
 
-#check{
-  display:none;
-}
-label #bars_btn, label #cancel{
-  display: none;
-}
-
 @media(max-width: 600px){ 
   
  #check{
   display:none;
 }
 label #bars_btn, label #cancel{
+  display:visible;
   color: white;
   font-size: 25px;
   position: absolute;
@@ -632,17 +626,17 @@ label #cancel{
   color:white;
   transition: all .5s;
 }
-  #check:checked ~ .sideBar{
+  #check:checked ~ #sideBar{
   right:0;
 }
 
 #check:checked ~ label #bars_btn{
-  right:250px;
+  right:50px;
   opacity: 0;
   pointer-events: none;
 }
 
 #check:checked ~ label #cancel{
-  right:260px;
+  right:60px;
 }
 }
